@@ -1,4 +1,12 @@
-.App {
+body {
+  font-family: "Roboto", sans-serif;
+  color: hsl(0, 0%, 16%);
+  background-color: hsl(0, 0%, 100%);
+  margin: 0;
+	box-sizing: border-box;
+}
+
+/*.App {
   text-align: center;
 }
 
@@ -36,3 +44,4 @@
     transform: rotate(360deg);
   }
 }
+*/
