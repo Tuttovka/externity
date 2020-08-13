@@ -3,45 +3,39 @@ body {
   color: hsl(0, 0%, 16%);
   background-color: hsl(0, 0%, 100%);
   margin: 0;
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-/*.App {
-  text-align: center;
+.nav {
+  background-color: red;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.container-logo {
+  width: 40%;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  @media (min-width: 768px) {
+    width: 50%;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+.ext-logo {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  height: 22px;
+  width: 96px;
+  padding: 20px 10px;
+  margin: 0 auto;
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  @media (min-width: 425px) {
+    width: 192px;
+    height: 44px;
+    padding: 20px 20px;
   }
-  to {
-    transform: rotate(360deg);
+
+  @media (min-width: 768px) {
+    width: 288px;
+    height: 65px;
+    padding: 30px 30px;
   }
 }
-*/
