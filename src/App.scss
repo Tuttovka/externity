@@ -7,14 +7,13 @@ body {
 }
 
 .nav {
-  background-color: red;
-}
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 15vh;
 
-.container-logo {
-  width: 40%;
-
-  @media (min-width: 768px) {
-    width: 50%;
+  @media (min-width: 425px) {
+    height: 20vh;
   }
 }
 
@@ -24,18 +23,42 @@ body {
   height: auto;
   height: 22px;
   width: 96px;
-  padding: 20px 10px;
-  margin: 0 auto;
 
   @media (min-width: 425px) {
     width: 192px;
     height: 44px;
-    padding: 20px 20px;
   }
 
   @media (min-width: 768px) {
     width: 288px;
     height: 65px;
-    padding: 30px 30px;
+  }
+}
+
+.contact-link {
+  &-header {
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 4px 8px;
+    background-color: rgb(30, 141, 226);
+    color: rgb(255, 255, 255);
+
+    @media (min-width: 425px) {
+      font-size: 1.25rem;
+      padding: 8px 16px;
+    }
+
+    @media (min-width: 768px) {
+      font-size: 1.5rem;
+      padding: 16px 32px;
+    }
+
+    &:hover {
+      background-color: rgb(30, 141, 210);
+      text-decoration: none;
+    }
+  }
+
+  &-footer {
   }
 }
