@@ -60,5 +60,37 @@ body {
   }
 
   &-footer {
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 4px 8px;
+    background-color: rgb(30, 141, 226);
+    color: rgb(255, 255, 255);
+    
+    @media (min-width: 425px) {
+      font-size: 1.25rem;
+      padding: 8px 16px;
+    }
+
+    @media (min-width: 768px) {
+      font-size: 1.5rem;
+      padding: 16px 32px;
+    }
+
+    &:hover {
+      background-color: rgb(30, 141, 210);
+      text-decoration: none;
+    }
+  }
+}
+
+.footer-bar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 15vh;
+  background-color: rgb(200, 200, 200);
+
+  @media (min-width: 425px) {
+    height: 20vh;
   }
 }

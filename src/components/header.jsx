@@ -12,8 +12,6 @@ export function Navigation() {
                 <a href="/contact-form" class="contact-link-header">Contact us</a>
             </div> 
         </div>
-
-
-);
+    );
 }
 
