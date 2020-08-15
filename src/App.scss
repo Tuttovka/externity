@@ -101,10 +101,12 @@ body {
 
   @media (min-width: 425px) {
     max-width: 80%;
+    padding: 45px 15px;
   }
 
   @media (min-width: 768px) {
     max-width: 70%;
+    padding: 60px 40px;
   }
 
   @media (min-width: 1024px) {
@@ -130,6 +132,11 @@ input {
   @media (min-width: 768px) {
     padding: 10px 15px;
   }
+
+  @media (min-width: 1024px) {
+    margin-bottom: 32px;
+    padding: 15px 20px;
+  }
 }
 
 textarea {
@@ -141,6 +148,11 @@ textarea {
 
   @media (min-width: 768px) {
     padding: 10px 15px;
+  }
+
+  @media (min-width: 1024px) {
+    padding: 15px 20px;
+    margin-bottom: 60px;
   }
 }
 
