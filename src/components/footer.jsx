@@ -1,11 +1,12 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export function Footer() {
   return (
     <div className="footer-bar">
-      <a href="/contact-form" class="contact-link-footer">
+      <Link to="/contact" class="contact-link-footer">
         Contact us
-      </a>
+      </Link>
     </div>
   );
 }

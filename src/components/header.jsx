@@ -1,19 +1,19 @@
 import React from "react";
-import { Link, withRouter } from "react-router-dom";
 import logo from "../logo.png";
+import { Link } from "react-router-dom"
 
 export function Navigation() {
   return (
     <div className="nav">
       <div>
-        <a href="/">
+        <Link to="/">
           <img src={logo} class="ext-logo" alt="externity logo" />
-        </a>
+        </Link>
       </div>
       <div>
-        <a href="/contact-form" class="contact-link-header">
+        <Link to="/contact" class="contact-link-header">
           Contact us
-        </a>
+        </Link>
       </div>
     </div>
   );
