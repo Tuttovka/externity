@@ -97,27 +97,56 @@ body {
 }
 
 .contact-bar {
-}
+  padding: 30px 10px;
 
-.form-bar {
-  &-top {
-    display: flex;
-  }
   @media (min-width: 425px) {
-    justify-content: space-around;
+    max-width: 80%;
   }
 
-  &-bot {
-    display: flex;
-  }
-  @media (min-width: 425px) {
-    justify-content: space-around;
+  @media (min-width: 768px) {
+    max-width: 70%;
   }
 
-
+  @media (min-width: 1024px) {
+    max-width: 60%;
+  }
 }
 
 .contact-form {
   display: flex;
   flex-direction: column;
+}
+label {
+  margin-bottom: 8px;
+}
+
+input {
+  width: auto;
+  margin-bottom: 24px;
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: 5px 10px;
+
+  @media (min-width: 768px) {
+    padding: 10px 15px;
+  }
+}
+
+textarea {
+  width: auto;
+  margin-bottom: 48px;
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: 5px 10px;
+
+  @media (min-width: 768px) {
+    padding: 10px 15px;
+  }
+}
+
+button {
+  width: 15%;
+  padding: 5px 10px;
+  border: 1px solid black;
+  border-radius: 3px;
 }
