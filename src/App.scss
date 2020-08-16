@@ -17,6 +17,12 @@ h1 {
   }
 }
 
+h2 {
+  margin-top: 0;
+  font-weight: 700;
+  text-align: center;
+}
+
 .nav {
   display: flex;
   justify-content: space-around;
@@ -109,6 +115,8 @@ h1 {
 
 .contact-bar {
   padding: 30px 10px;
+  margin:0 auto;
+  background-color: rgb(255, 224, 106);
 
   @media (min-width: 425px) {
     max-width: 80%;
@@ -248,4 +256,40 @@ textarea {
   line-height: 1.5;
   margin-bottom: 1.25rem;    
   font-weight: 400;
+}
+
+.article-box {
+  max-width: 1200px;
+  margin:0 auto;
+  padding: 30px 15px;
+  background-color: rgb(255, 224, 106);
+
+  @media (min-width: 425px) {
+    padding: 45px 15px;
+  }
+
+  @media (min-width: 768px) {
+    padding: 60px 40px;
+  }
+}
+
+.article-top {
+  display: flex;
+  justify-content: center;
+}
+
+.article-image {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.article-content {
+  max-width: 1100px;
+  display: flex;
+  margin: 20px auto;
+}
+
+.x {
+  align-self: center;
 }
