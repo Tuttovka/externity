@@ -1,0 +1,38 @@
+{
+  "articles": [
+    {
+      "title": "Something great",
+      "lead": "something about Something",
+      "img": "/images/something.jpg",
+      "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed elit dui, pellentesque a, faucibus vel, interdum nec, diam. Aenean fermentum risus id tortor. Phasellus et lorem id felis nonummy placerat. Integer tempor. Ut tempus purus at lorem. Aliquam erat volutpat. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit. Integer vulputate sem a nibh rutrum consequat. Nulla turpis magna, cursus sit amet, suscipit a, interdum id, felis. Suspendisse sagittis ultrices augue. In rutrum. Duis sapien nunc, commodo et, interdum suscipit, sollicitudin et, dolor. Integer pellentesque quam vel velit. Curabitur ligula sapien, pulvinar a vestibulum quis, facilisis vel sapien."
+    },
+
+    {
+      "title": "Anything is awesome",
+      "lead": "something about Anything",
+      "img": "/images/anything.jpg",
+      "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed elit dui, pellentesque a, faucibus vel, interdum nec, diam. Aenean fermentum risus id tortor. Phasellus et lorem id felis nonummy placerat. Integer tempor. Ut tempus purus at lorem. Aliquam erat volutpat. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit. Integer vulputate sem a nibh rutrum consequat. Nulla turpis magna, cursus sit amet, suscipit a, interdum id, felis. Suspendisse sagittis ultrices augue. In rutrum. Duis sapien nunc, commodo et, interdum suscipit, sollicitudin et, dolor. Integer pellentesque quam vel velit. Curabitur ligula sapien, pulvinar a vestibulum quis, facilisis vel sapien."
+    },
+
+    {
+      "title": "Nothing is useless",
+      "lead": "something about Nothing",
+      "img": "/images/nothing.jpg",
+      "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed elit dui, pellentesque a, faucibus vel, interdum nec, diam. Aenean fermentum risus id tortor. Phasellus et lorem id felis nonummy placerat. Integer tempor. Ut tempus purus at lorem. Aliquam erat volutpat. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit. Integer vulputate sem a nibh rutrum consequat. Nulla turpis magna, cursus sit amet, suscipit a, interdum id, felis. Suspendisse sagittis ultrices augue. In rutrum. Duis sapien nunc, commodo et, interdum suscipit, sollicitudin et, dolor. Integer pellentesque quam vel velit. Curabitur ligula sapien, pulvinar a vestibulum quis, facilisis vel sapien."
+    },
+
+    {
+      "title": "Somebody is smart",
+      "lead": "something about Somebody",
+      "img": "/images/somebody.jpg",
+      "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed elit dui, pellentesque a, faucibus vel, interdum nec, diam. Aenean fermentum risus id tortor. Phasellus et lorem id felis nonummy placerat. Integer tempor. Ut tempus purus at lorem. Aliquam erat volutpat. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit. Integer vulputate sem a nibh rutrum consequat. Nulla turpis magna, cursus sit amet, suscipit a, interdum id, felis. Suspendisse sagittis ultrices augue. In rutrum. Duis sapien nunc, commodo et, interdum suscipit, sollicitudin et, dolor. Integer pellentesque quam vel velit. Curabitur ligula sapien, pulvinar a vestibulum quis, facilisis vel sapien."
+    },
+
+    {
+      "title": "Anybody help me",
+      "lead": "something about Anybody",
+      "img": "/images/anybody.jpg",
+      "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed elit dui, pellentesque a, faucibus vel, interdum nec, diam. Aenean fermentum risus id tortor. Phasellus et lorem id felis nonummy placerat. Integer tempor. Ut tempus purus at lorem. Aliquam erat volutpat. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit. Integer vulputate sem a nibh rutrum consequat. Nulla turpis magna, cursus sit amet, suscipit a, interdum id, felis. Suspendisse sagittis ultrices augue. In rutrum. Duis sapien nunc, commodo et, interdum suscipit, sollicitudin et, dolor. Integer pellentesque quam vel velit. Curabitur ligula sapien, pulvinar a vestibulum quis, facilisis vel sapien."
+    }
+  ]
+}
