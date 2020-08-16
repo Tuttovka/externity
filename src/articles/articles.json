@@ -1,0 +1,38 @@
+{
+  "articles": [
+    {
+      "title": "Something",
+      "lead": "something about Something",
+      "img": "/img/something.jpg",
+      "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed elit dui, pellentesque a, faucibus vel, interdum nec, diam. Aenean fermentum risus id tortor. Phasellus et lorem id felis nonummy placerat. Integer tempor. Ut tempus purus at lorem. Aliquam erat volutpat. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit. Integer vulputate sem a nibh rutrum consequat. Nulla turpis magna, cursus sit amet, suscipit a, interdum id, felis. Suspendisse sagittis ultrices augue. In rutrum. Duis sapien nunc, commodo et, interdum suscipit, sollicitudin et, dolor. Integer pellentesque quam vel velit. Curabitur ligula sapien, pulvinar a vestibulum quis, facilisis vel sapien."
+    },
+
+    {
+      "title": "Anything",
+      "lead": "something about Anything",
+      "img": "/img/anything.jpg",
+      "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed elit dui, pellentesque a, faucibus vel, interdum nec, diam. Aenean fermentum risus id tortor. Phasellus et lorem id felis nonummy placerat. Integer tempor. Ut tempus purus at lorem. Aliquam erat volutpat. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit. Integer vulputate sem a nibh rutrum consequat. Nulla turpis magna, cursus sit amet, suscipit a, interdum id, felis. Suspendisse sagittis ultrices augue. In rutrum. Duis sapien nunc, commodo et, interdum suscipit, sollicitudin et, dolor. Integer pellentesque quam vel velit. Curabitur ligula sapien, pulvinar a vestibulum quis, facilisis vel sapien."
+    },
+
+    {
+      "title": "Nothing",
+      "lead": "something about Nothing",
+      "img": "/img/nothing.jpg",
+      "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed elit dui, pellentesque a, faucibus vel, interdum nec, diam. Aenean fermentum risus id tortor. Phasellus et lorem id felis nonummy placerat. Integer tempor. Ut tempus purus at lorem. Aliquam erat volutpat. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit. Integer vulputate sem a nibh rutrum consequat. Nulla turpis magna, cursus sit amet, suscipit a, interdum id, felis. Suspendisse sagittis ultrices augue. In rutrum. Duis sapien nunc, commodo et, interdum suscipit, sollicitudin et, dolor. Integer pellentesque quam vel velit. Curabitur ligula sapien, pulvinar a vestibulum quis, facilisis vel sapien."
+    },
+
+    {
+      "title": "Somebody",
+      "lead": "something about Somebody",
+      "img": "/img/somebody.jpg",
+      "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed elit dui, pellentesque a, faucibus vel, interdum nec, diam. Aenean fermentum risus id tortor. Phasellus et lorem id felis nonummy placerat. Integer tempor. Ut tempus purus at lorem. Aliquam erat volutpat. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit. Integer vulputate sem a nibh rutrum consequat. Nulla turpis magna, cursus sit amet, suscipit a, interdum id, felis. Suspendisse sagittis ultrices augue. In rutrum. Duis sapien nunc, commodo et, interdum suscipit, sollicitudin et, dolor. Integer pellentesque quam vel velit. Curabitur ligula sapien, pulvinar a vestibulum quis, facilisis vel sapien."
+    },
+
+    {
+      "title": "Anybody",
+      "lead": "something about Anybody",
+      "img": "/img/anybody.jpg",
+      "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed elit dui, pellentesque a, faucibus vel, interdum nec, diam. Aenean fermentum risus id tortor. Phasellus et lorem id felis nonummy placerat. Integer tempor. Ut tempus purus at lorem. Aliquam erat volutpat. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit. Integer vulputate sem a nibh rutrum consequat. Nulla turpis magna, cursus sit amet, suscipit a, interdum id, felis. Suspendisse sagittis ultrices augue. In rutrum. Duis sapien nunc, commodo et, interdum suscipit, sollicitudin et, dolor. Integer pellentesque quam vel velit. Curabitur ligula sapien, pulvinar a vestibulum quis, facilisis vel sapien."
+    }
+  ]
+}

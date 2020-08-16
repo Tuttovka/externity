@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { Articles } from "../articles/articles.json";
 
 export function Homepage() {
   return (
