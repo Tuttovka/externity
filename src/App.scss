@@ -239,6 +239,7 @@ textarea {
 
 .card-content {
   padding: 1rem;
+  margin: 0 auto;
 }
 
 .card-title {
@@ -248,6 +249,7 @@ textarea {
   letter-spacing: 1px;
   text-transform: capitalize;
   margin: 0px;
+  text-align: center;
 }
 
 .card-text {
@@ -255,7 +257,8 @@ textarea {
   font-size: 1rem;
   line-height: 1.5;
   margin-bottom: 1.25rem;    
-  font-weight: 400;
+  font-weight: 500;
+  text-align: center;
 }
 
 .article-box {
@@ -289,3 +292,5 @@ textarea {
   display: flex;
   margin: 20px auto;
 }
+
+
