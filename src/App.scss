@@ -6,6 +6,17 @@ body {
   box-sizing: border-box;
 }
 
+h1 {
+  margin-top: 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+
+  @media (min-width: 768px) {
+    font-size: 2rem;
+  }
+}
+
 .nav {
   display: flex;
   justify-content: space-around;
@@ -118,6 +129,7 @@ body {
   display: flex;
   flex-direction: column;
 }
+
 label {
   margin-bottom: 8px;
 }
@@ -156,9 +168,84 @@ textarea {
   }
 }
 
-button {
+.contact-button {
   width: 15%;
   padding: 5px 10px;
   border: 1px solid black;
   border-radius: 3px;
+}
+
+.homepage-box {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 10px;
+  background-color: rgb(255, 224, 106);
+
+  @media (min-width: 425px) {
+    padding: 45px 15px;
+  }
+
+  @media (min-width: 768px) {
+    padding: 60px 40px;
+  }
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards-item {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 5px;
+  background-color: rgb(255, 206, 15);
+
+  @media (min-width: 425px) {
+    margin: 10px 10px;
+  }
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+    width: 47%;
+  }
+
+  @media (min-width: 1024px) {
+    width: 30%;
+  }
+}
+
+.card {
+  align-self: center;
+}
+
+.card-image {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.card-content {
+  padding: 1rem;
+}
+
+.card-title {
+  color:rgb(0, 0, 0);
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin: 0px;
+}
+
+.card-text {
+  color:rgb(0, 0, 0);
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;    
+  font-weight: 400;
 }
