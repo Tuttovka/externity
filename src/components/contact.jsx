@@ -18,7 +18,7 @@ export function Contact() {
           placeholder="Dear Sir or Madam. I would like to aks you.... "
         ></textarea>
 
-        <button class="contact-button" type="submit">Send</button>
+        <button className="contact-button" type="submit">Send</button>
       </form>
     </div>
   );

@@ -21,7 +21,7 @@ export function Article({ articlesData }) {
         <img img className="article-image" src={matchedArticle.img} />
       </div>
       <div className="article-content">
-        <p className="x">{matchedArticle.text}</p>
+        <p>{matchedArticle.text}</p>
       </div>
     </div>
   );

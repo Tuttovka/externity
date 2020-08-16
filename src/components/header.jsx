@@ -7,11 +7,11 @@ export function Navigation() {
     <div className="nav">
       <div>
         <Link to="/">
-          <img src={logo} class="ext-logo" alt="externity logo" />
+          <img src={logo} className="ext-logo" alt="externity logo" />
         </Link>
       </div>
       <div>
-        <Link to="/contact" class="contact-link-header">
+        <Link to="/contact" className="contact-link-header">
           Contact us
         </Link>
       </div>
