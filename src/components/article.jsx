@@ -1,7 +1,5 @@
 import React from "react";
-import {
-  useParams
-} from "react-router-dom";
+import { useParams } from "react-router-dom";
 
 export function Article({ articlesData }) {
   // We can use the `useParams` hook here to access
@@ -9,10 +7,10 @@ export function Article({ articlesData }) {
   let { articleId } = useParams();
   const { articles } = articlesData;
 
-  const articleTitle = articleId.replace(/-/g, ' ')
+  const articleTitle = articleId.replace(/-/g, " ");
   const matchedArticle = articles.find((article) => {
-    return article.title.toLowerCase() == articleTitle
-  })
+    return article.title.toLowerCase() == articleTitle;
+  });
 
   return (
     <div className="article-box">
