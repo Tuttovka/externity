@@ -9,7 +9,7 @@ export function Article({ articlesData }) {
 
   const articleTitle = articleId.replace(/-/g, " ");
   const matchedArticle = articles.find((article) => {
-    return article.title.toLowerCase() == articleTitle;
+    return article.title.toLowerCase() === articleTitle;
   });
 
   return (

@@ -24,16 +24,14 @@ function App() {
           <Route
             exact
             path="/"
-            exact
             component={() => <Homepage articlesData={articlesData} />}
           />
           <Route
             exact
             path="/blog/:articleId"
-            exact
             component={() => <Article articlesData={articlesData} />}
           />
-          <Route exact path="/contact" exact component={() => <Contact />} />
+          <Route exact path="/contact" component={() => <Contact />} />
           <Route exact path="/404" component={() => <NotFound />} />
           <Redirect to="/404" />
         </Switch>
