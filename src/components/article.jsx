@@ -16,7 +16,7 @@ export function Article({ articlesData }) {
     <div className="article-box">
       <h2>{matchedArticle.title}</h2>
       <div className="article-top">
-        <img img className="article-image" src={matchedArticle.img} />
+        <img className="article-image" src={matchedArticle.img} alt=""/>
       </div>
       <div className="article-content">
         <p>{matchedArticle.text}</p>

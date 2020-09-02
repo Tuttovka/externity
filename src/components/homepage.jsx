@@ -23,7 +23,7 @@ export function Homepage({ articlesData }) {
             >
               <li>
                 <div>
-                  <img className="card-image" src={article.img} />
+                  <img className="card-image" src={article.img} alt="" />
                 </div>
                 <div className="card-content">
                   <h3 className="card-title">{article.title}</h3>
